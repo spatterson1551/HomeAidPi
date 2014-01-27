@@ -112,16 +112,12 @@ class System:
 
 #main ------------------------------------------------------------------------------------------------------------
 
-Steve = Occupant("Steven", "CC:78:5F:5B:57:29", 0, "PATTERSONSW1\xe2\x80\x99s iPhone", False, False)
-JR = Occupant("JR", "FF:FF:FF:FF:FF:FF", 1, "JR's iPhone", False, False)
-Josh = Occupant("Josh", "FF:FF:FF:FF:FF:FF", 2, "Josh's iPhone", False, False)
-Ken = Occupant("Ken", "FF:FF:FF:FF:FF:FF", 3, "Ken's iPhone", False, False)
+Steve = Occupant("Steven", "EE:EE:EE:EE:EE:EE", 0, "PATTERSONSW1\xe2\x80\x99s iPhone", False, False)
+John = Occupant("John Doe", "FF:FF:FF:FF:FF:FF", 1, "John iPhone", False, False)
 Pi = System(time.time())  
 FamilyRoom = Room(0, True)     
 FamilyRoom.occupants.append(Steve)
-FamilyRoom.occupants.append(JR)
-FamilyRoom.occupants.append(Josh)
-FamilyRoom.occupants.append(Ken)
+FamilyRoom.occupants.append(John)
 #INTRUDER = False
 REMOVE_INTRUDER = False
 PING_INTERVAL = 60
